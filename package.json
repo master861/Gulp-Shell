@@ -17,7 +17,7 @@
 		"prettier": "prettier --check 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
 		"prettier:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
 		"watch": "gulp watch",
-		"coverage": "nyc report --reporter=text-lcov | coveralls",
+		"coverage": "nyc report --reporter=text-lcov | coveralls"
 		"coveralls": "gulp coveralls",
 		"prepare": "npm run build",
 		"prepublishOnly": "npm test"
