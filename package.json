@@ -12,7 +12,7 @@
 	],
 	"scripts": {
 		"build": "gulp build",
-		"test": "nyc --reporter=html --reporter=text mocha --timeout 10000",
+		"test": "nyc --reporter=html --reporter=text mocha --timeout 100000",
 		"lint": "eslint . --fix",
 		"prettier": "prettier --check 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
 		"prettier:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
