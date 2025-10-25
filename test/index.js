@@ -68,7 +68,6 @@ describe("gulp-shell(commands, options)", () => {
       promise.then(done);
       done();
     });
-    done();
   });
 
   describe("options", () => {
@@ -177,4 +176,5 @@ describe("gulp-shell(commands, options)", () => {
     });
   });
 });
+
 
