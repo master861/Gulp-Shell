@@ -66,8 +66,7 @@ describe("gulp-shell(commands, options)", () => {
       expect(promise).to.be.a("promise");
 
       promise.then(done);
-      done();
-    }).catch(done);
+    }).then(done, done);
   });
 
   describe("options", () => {
@@ -176,6 +175,7 @@ describe("gulp-shell(commands, options)", () => {
     });
   });
 });
+
 
 
 
