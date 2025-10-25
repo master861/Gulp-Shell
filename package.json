@@ -13,8 +13,7 @@
 	"scripts": {
 		"build": "gulp build",
 		"test": "nyc --reporter=html --reporter=text mocha",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix",
+		"lint": "eslint . --fix",
 		"prettier": "prettier --check 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
 		"prettier:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts' 'package.json' 'gulpfile.ts'",
 		"watch": "gulp watch",
